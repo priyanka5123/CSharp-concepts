@@ -1,0 +1,17 @@
+C:\Users\priya\projects\csharp\bin\Debug\net10.0\csharp.exe
+C:\Users\priya\projects\csharp\bin\Debug\net10.0\csharp.deps.json
+C:\Users\priya\projects\csharp\bin\Debug\net10.0\csharp.runtimeconfig.json
+C:\Users\priya\projects\csharp\bin\Debug\net10.0\csharp.dll
+C:\Users\priya\projects\csharp\bin\Debug\net10.0\csharp.pdb
+C:\Users\priya\projects\csharp\bin\Debug\net10.0\Pastel.dll
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.csproj.AssemblyReference.cache
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.AssemblyInfoInputs.cache
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.AssemblyInfo.cs
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.csproj.CoreCompileInputs.cache
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.csproj.Up2Date
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.dll
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\refint\csharp.dll
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.pdb
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.genruntimeconfig.cache
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\ref\csharp.dll

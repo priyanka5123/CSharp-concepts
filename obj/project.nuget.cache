@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "neBjNMGxkxA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\priya\\projects\\csharp\\csharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\priya\\.nuget\\packages\\pastel\\7.0.1\\pastel.7.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
