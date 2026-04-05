@@ -18,6 +18,13 @@ public class Program
         int result = DivideNumbers(10, 0);
         Console.WriteLine("The result is: " + result);
         Console.WriteLine("Hello, World!".Pastel(ConsoleColor.Green));
-
+        int[] numbers = {};
+        double average = MathUtils.CalculateAverage(numbers);
+        Console.WriteLine("The average is:" + average);
+        double finalPrice = MathUtils.ApplyDiscount(1000,15);
+        Console.WriteLine("The final price is :" + finalPrice);
+        int[] myNumbers = { -5, -10, -3,-8, -2};
+        int maxNumber = MathUtils.FindMax(myNumbers);
+        Console.WriteLine("The maximum number is: " + maxNumber);
     }
 }
