@@ -15,3 +15,4 @@ C:\Users\priya\projects\csharp\obj\Debug\net10.0\refint\csharp.dll
 C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.pdb
 C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.genruntimeconfig.cache
 C:\Users\priya\projects\csharp\obj\Debug\net10.0\ref\csharp.dll
+C:\Users\priya\projects\csharp\obj\Debug\net10.0\csharp.sourcelink.json
