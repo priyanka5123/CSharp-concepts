@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using System.Xml.Schema;
 using Pastel;
 
 public class Program
@@ -26,5 +27,9 @@ public class Program
         int[] myNumbers = { -5, -10, -3,-8, -2};
         int maxNumber = MathUtils.FindMax(myNumbers);
         Console.WriteLine("The maximum number is: " + maxNumber);
+        int res = Calculator.Add();
+        Console.WriteLine("The sum is: " + res);
+        NumberDisplay.DispalyNumbers();
+        UserInput.GreetUser();
     }
 }
