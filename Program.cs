@@ -138,6 +138,17 @@ public class Program
         subject.Attatch(observer2);
 
         subject.Notify("Hello, Observers!");
+
+        //NewPerson
+        NewPerson friend = new NewPerson();
+        friend.Name = "Jane Smith";
+        friend.Age = 35;
+        friend.Greet();
+        NewPerson colleague = new NewPerson();
+        colleague.Name = "John Doe";
+        colleague.Age = 30;
+        colleague.Greet();
+        
     }
 
 }
