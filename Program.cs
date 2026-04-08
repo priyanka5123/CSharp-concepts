@@ -94,6 +94,50 @@ public class Program
             animal.Eat();
         }
 
+        //Singleton
+        Database db1 = Database.GetInstance();
+        Database db2 = Database.GetInstance();
+        db1.Connect();
+        Console.WriteLine(object.ReferenceEquals(db1, db2));  //Output : True
+
+        //Adapter
+        Adaptee adaptee = new Adaptee();
+        ITarget target = new Adapter(adaptee);
+        target.Request();
+
+        //Factory
+        Animals dog = AnimalFactory.CreateAnimal("Dog");
+        dog.Speak();
+
+        Animals cat = AnimalFactory.CreateAnimal("Cat");
+        cat.Speak();
+
+        //NotificationFactory
+        NotificationFactory factory = new NotificationFactory();
+        INotification note = factory.CreateNotification("email");
+        note.Send("Welcome user");
+
+        //WeatherStation
+        WeatherStation station = new WeatherStation();
+        PhoneDisplay phone = new PhoneDisplay();
+        DesktopDisplay desktop = new DesktopDisplay();
+
+        station.RegisterObserver(phone);
+        station.RegisterObserver(desktop);
+
+        station.SetTemperature(18);
+        station.RemoveObserver(phone);
+        station.SetTemperature(25);
+
+        //Observer
+        Subject subject = new Subject();
+        IObservers observer1 = new ConcreteObserver("Observer 1");
+        IObservers observer2 = new ConcreteObserver("Observer 2");
+
+        subject.Attatch(observer1);
+        subject.Attatch(observer2);
+
+        subject.Notify("Hello, Observers!");
     }
 
 }
