@@ -71,6 +71,17 @@ public class Program
         Person newPerson = new Person { Name = "Ping Jeong", Age = 25 };
         string newJson = JsonConvert.SerializeObject(newPerson);
         Console.WriteLine($"Serialized JSON: {newJson}");
+
+        // Create Pool object
+        Pool p = new Pool(5, 100);
+        p.PoolInfo();
+
+        // Create Spa object (inherits from Pool)
+        Spa s = new Spa(3, 80, 40);
+        s.SpaInfo();
+
+        // You can also access inherited method
+        s.PoolInfo();
     }
 
 }
